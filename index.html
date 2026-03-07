@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' https://cdn.akamai.steamstatic.com"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sanctuary</title>
+  </head>
+  <body>
+    <div id="app">
+      <nav id="topbar">
+        <span class="logo">Sanctuary</span>
+        <div id="nav-tabs">
+          <button class="tab active">All</button>
+          <button class="tab">Steam</button>
+          <button class="tab">Xbox</button>
+          <button class="tab">Emulators</button>
+          <button class="tab">Other</button>
+        </div>
+      </nav>
+      <main id="game-list"></main>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>

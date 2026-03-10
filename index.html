@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; img-src 'self' https://cdn.akamai.steamstatic.com"
+      content="default-src 'self'; img-src 'self' https://cdn.akamai.steamstatic.com https://cdn2.steamgriddb.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://www.steamgriddb.com"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Sanctuary</title>
   </head>
   <body>
@@ -17,9 +17,7 @@
         <div id="nav-tabs">
           <button class="tab active">All</button>
           <button class="tab">Steam</button>
-          <button class="tab">Xbox</button>
           <button class="tab">Emulators</button>
-          <button class="tab">Other</button>
         </div>
       </nav>
       <main id="game-list"></main>
